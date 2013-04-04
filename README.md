@@ -1,4 +1,4 @@
 murer.github.com
 ================
 
-https://github.com/murer/
+http://murer.github.com/
