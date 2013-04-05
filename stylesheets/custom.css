@@ -1,9 +1,31 @@
-.togglepanel {
-	cursor: pointer;
+.clear {
+	clear: both;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	display: none border:  1px solid #fff;
+	padding: 0;
+	margin: 0
 }
 
-.togglepanel-inner {
-	margin-left: 10px;
-	padding-left: 10px;
-	border-left: 1px dashed rgba(255, 255, 255, 0.15) 
+div.panel {
+	float: left;
+	padding-left: 20px;
 }
+
+div.panel.first {
+	padding-left: 0;
+}
+
+div.panel p {
+	margin: 0 0
+}
+
+div.panel p:before {
+	content: '# '
+}
+
+div.panel a {
+	text-decoration: none
+}
+
